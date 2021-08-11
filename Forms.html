@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <H1>Forms</H1>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Personal</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="FirstName" /> <br />
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="LastName" /> <br />
+            <label for="emailid">Email:</label>
+            <input type="text" id="emailid" name="EmailID" required /> <br />
+            <label for="about">About you:</label> <br />
+            <textarea id="about" placeholder="Your biography"></textarea><br />
+            <label for="genderList">Gender:</label>            
+            <select id="genderList" name="genderList">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Not mentioned">Other</option>
+            </select><br />
+            <label for="emailid">Your favourite Programming languages:</label>
+        </fieldset>
+    </form>
+</body>
+</html>
